@@ -62,6 +62,14 @@ public class Cancion {
         this.lista = lista;
     }
     
+    public Cancion(String nombre, String artista, String colaborador, String ruta, String genero) {
+        this.nombre = nombre;
+        this.artista = artista;
+        this.colaborador = colaborador;
+        this.ruta = ruta;
+        this.genero = genero;
+    }
+    
     //----- Getter & Setter -----
 
     public Long getIdCancion() {
