@@ -15,7 +15,7 @@ public interface IFactoryDAO {
     
     public CancionDAO readCancionDAO();
     
-    public CancionDAO deleteCancionDAO();
+    //public void deleteCancionDAO();
     
     public List<CancionDAO> readAllCancionDAO();
     
@@ -25,7 +25,7 @@ public interface IFactoryDAO {
     
     public ListaDAO updateListaDAO();
     
-    public ListaDAO deleteListaDAO();
+    //public void deleteListaDAO();
     
     public List<ListaDAO> readAllListaDAO();
 }

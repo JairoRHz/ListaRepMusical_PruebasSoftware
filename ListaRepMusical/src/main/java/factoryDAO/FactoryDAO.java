@@ -27,42 +27,42 @@ public class FactoryDAO implements IFactoryDAO{
 
     @Override
     public CancionDAO readCancionDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new CancionDAO(conexion);
     }
 
-    @Override
-    public CancionDAO deleteCancionDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+//    @Override
+//    public void deleteCancionDAO() {
+//        return new CancionDAO(conexion);
+//    }
 
     @Override
     public List<CancionDAO> readAllCancionDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return (List<CancionDAO>) new CancionDAO(conexion);
     }
 
     @Override
     public ListaDAO createListaDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new ListaDAO(conexion);
     }
 
     @Override
     public ListaDAO readListaDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new ListaDAO(conexion);
     }
 
     @Override
     public ListaDAO updateListaDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return new ListaDAO(conexion);
     }
 
-    @Override
-    public ListaDAO deleteListaDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
-    }
+//    @Override
+//    public void deleteListaDAO() {
+//        return new ListaDAO(conexion);
+//    }
 
     @Override
     public List<ListaDAO> readAllListaDAO() {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        return (List<ListaDAO>) new ListaDAO(conexion);
     }
 
     
